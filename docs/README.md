@@ -13,16 +13,16 @@ integrate it with existing cmake projects.
 ```
 set(IMGUI_VERSION master)
 
-# dependency: raylib
+# dependency: imgui
 FetchContent_Declare(
-  raylib
+  imgui
   GIT_REPOSITORY https://github.com/natancamargo/imgui
   GIT_TAG ${IMGUI_VERSION}
   GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(imgui)
 ...
-target_link_libraries(${YOUR_LIBRARY_NAME} PUBLIC
+target_link_libraries(${TARGET_NAME} PUBLIC
   imgui
 )
 ```

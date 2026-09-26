@@ -60,5 +60,5 @@ add_library(${LIBRARY_NAME} STATIC
   "${CMAKE_SOURCE_DIR}/imstb_truetype.h"
 )
 
-target_include_directories(${LIBRARY_NAME} PUBLIC "${CMAKE_SOURCE_DIR}/")
-target_include_directories(${LIBRARY_NAME} PUBLIC "${CMAKE_SOURCE_DIR}/backends")
+target_include_directories(${LIBRARY_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/")
+target_include_directories(${LIBRARY_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/backends")
