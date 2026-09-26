@@ -5,15 +5,9 @@ Dear ImGui
 This repository aims to integrate imgui with cmake, turning possible to
 integrate it with existing cmake projects.
 
-Original Repo
--------------
-Original ImGui repository link.
-[Click here](https://github.com/ocornut/imgui/)
+[Original ImGui repository link](https://github.com/ocornut/imgui/)
 
-Web examples
-------------
-See online examples with live code.
-[Click here](https://pthom.github.io/imgui_explorer/)
+[See online examples with live code](https://pthom.github.io/imgui_explorer/)
 
 ### Include in your CMake
 ```
